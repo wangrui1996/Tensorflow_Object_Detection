@@ -1,0 +1,1 @@
+python3 ./object_detection/export_inference_graph.py --pipeline_config_path /home/rui/tmp/ssd_mobilenet_v2_coco.config --trained_checkpoint_prefix /home/rui/tmp/model_dir/model.ckpt-122712 --output_directory /home/rui/tmp/object_model --input_type image_tensor
